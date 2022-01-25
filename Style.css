@@ -27,7 +27,7 @@ body {
     border-radius: 5px;
     padding: 5px;
     /*background: linear-gradient(to right, #573dca, #ec7b11);*/
-    color: white;
+    color: black;
     font-size: 25px;
 }
 .inputContainer button {
