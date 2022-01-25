@@ -18,22 +18,24 @@ body {
 }
 .inputContainer {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    margin: auto 220px;
+ 
 }
-input[type="search"] {
+.search-box {
     margin: 0;
-    width: 100%;
+    
     border-radius: 5px;
     padding: 5px;
-    background: linear-gradient(to right, #573dca, #ec7b11);
+    /*background: linear-gradient(to right, #573dca, #ec7b11);*/
     color: white;
     font-size: 25px;
 }
-.inputContainer > button {
+.inputContainer button {
     background: #573dca;
     color: white;
     font-size: 20px;
+    display: block;
+
 }
 .mainContainer {
     display: flex;
@@ -57,3 +59,11 @@ input[type="search"] {
     box-shadow: 0 8px 15px 0 rgb(183, 0, 255);
 }
 
+.search-box{
+    width: 80%;
+}
+
+.col-12{
+    display:flex;
+    
+    }
